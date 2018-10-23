@@ -1,0 +1,28 @@
+{
+  "name": "allow-require-me",
+  "version": "1.0.0",
+  "description": "Add symbolic link from node_modules to current package directory",
+  "main": "allow-require-me.js",
+  "scripts": {
+    "postinstall": "node allow-require-me.js install"
+  },
+  "bin": {
+    "allow-require-me": "allow-require-me.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactiveSets/allow-require-me.git"
+  },
+  "keywords": [
+    "npm",
+    "testing",
+    "node_modules",
+    "self-reference"
+  ],
+  "author": "Jean Vincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReactiveSets/allow-require-me/issues"
+  },
+  "homepage": "https://github.com/ReactiveSets/allow-require-me#readme"
+}
